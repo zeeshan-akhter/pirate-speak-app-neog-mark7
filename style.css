@@ -1,0 +1,115 @@
+:root{
+    /*colors*/
+    --primary-muddy: #a5703e;
+    --primary-sandy: #351409;
+    --light-grey: #979797;
+    --text-white: rgb(255, 255, 255);
+    --text-black: #731a15;
+    
+    /* space */
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.50rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-5: 1.25rem;
+    --spacing-6: 1.50rem;
+    --spacing-7: 1.75rem;
+    --spacing-8: 2rem;
+
+    /* font-family */
+    --primary-font: 'Homemade Apple', cursive;
+
+    /* font-size */
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 3rem;
+}
+
+body{
+    margin: 0;
+    font-family: var(--primary-font);
+    background-color: var(--primary-muddy);
+}
+
+.header-up{
+    margin: var(--spacing-6) 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100px;
+    height: 99px;
+    border-radius: 50%;
+}
+
+.heading{
+    color: var(--primary-sandy);
+    font-size: var(--font-size-4xl);
+    margin: 0 var(--spacing-6);
+}
+
+.header-down{
+    background-color: var(--light-grey);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.input-container{
+    width: 40%;
+}
+
+.sub-heading{
+    color: var(--text-black);
+}
+
+.label{
+    font-weight: 500;
+    font-size: var(--font-size-md);
+
+}
+
+#txt-input {
+    border: 5px solid var(--primary-sandy);
+    border-radius: 5px;
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    padding: var(--spacing-6);
+  }
+
+.translate{
+    display: block;
+    background-color: var(--primary-sandy);
+    padding: var(--spacing-3) var(--spacing-5);
+    font-size: var(--font-size-xl);
+    color: var(--text-white);
+    margin: var(--spacing-5) 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.output-container{
+  width: 40%;
+}
+
+#output {
+    border: 5px solid var(--primary-sandy);
+    border-radius: 5px;
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    padding: var(--spacing-6);
+  }

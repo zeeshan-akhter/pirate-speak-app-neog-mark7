@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>pirate speak</title>
+    <link rel="icon" type="image/x-icon" href="/img/pirate.png">
+</head>
+<body>
+    <header class="header">
+        <div class="header-up">
+            <img class="image" src="/img/pirate3.jpg" alt="image">
+            <h1 class="heading">THE PIRATE SPEAK</h1>
+            <img class="image" src="/img/pirate3.jpg" alt="image">
+        </div>
+        <div class="header-down">
+            <h5 class="sub-heading"> Translate your language to pirate's language</h5>
+        </div>
+    </header>
+    <main class="main">
+        <div class="input-container">
+            <h5 class="label">Enter the text in your language</h5>
+            <textarea id="txt-input" cols="30" rows="10" placeholder="Type here......"></textarea>
+            <small class="error"></small>
+            <button class="translate" id="btn-translate">
+                Translate
+            </button>
+        </div>
+        <div class="output-container">
+            <h5 class="label">Translated text 👇✨</h5>
+            <div id="output"></div>
+        </div>
+    </main>
+    <script type="text/javascript" src="/app.js"></script>
+</body>
+</html>
